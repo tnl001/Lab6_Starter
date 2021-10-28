@@ -14,6 +14,7 @@ const recipes = [
 const recipeData = {}
 
 window.addEventListener('DOMContentLoaded', init);
+console.log(recipeData);
 
 // This is the first function to be called, so when you are tracing your code start here.
 async function init() {
@@ -69,7 +70,7 @@ function createRecipeCards() {
   // show any others you've added when the user clicks on the "Show more" button.
 
   // Part 1 Expose - TODO
-  var main_section = document.querySelector("main");
+  let main_section = document.querySelector("main");
 
   for (let i = 0; i < Object.keys(recipeData).length; i++) {
     let recipe_card = document.createElement("recipe-card");

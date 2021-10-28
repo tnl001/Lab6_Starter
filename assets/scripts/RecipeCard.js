@@ -107,6 +107,30 @@ class RecipeCard extends HTMLElement {
     } else {
       console.log(searchForKey(data, "ratingValue"));
     }
+
+    // creating thumbnail
+    let thumbnail = document.createElement("img");
+    thumbnail.setAttribute("src", searchForKey(data, "thumbnailUrl"));
+    thumbnail.setAttribute("alt", "Recipe Title");
+
+    // creating title link
+    let title_p = document.createElement("p");
+    let title_link = document.createElement("a");
+    title_link.setAttribute("href", getUrl(data));
+    title_link.innerHTML = searchForKey(data, "headline");
+    title_p.setAttribute("class", "title");
+    title_p.appendChild(title_link);
+
+    // creating organization
+    let org_p = document.createElement("p");
+    org_p.setAttribute("class", "organization");
+    org_p.innerHTML = getOrganization(data);
+
+    // console.log(getUrl(data));
+    // console.log(searchForKey(data, "headline"));
+    // console.log(searchForKey(data, "thumbnailUrl"));
+    // console.log(getOrganization(data));
+    console.log(convertTime(searchForKey(data, "cookTime")));
   }
 }
 
