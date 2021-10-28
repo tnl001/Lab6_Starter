@@ -126,11 +126,22 @@ class RecipeCard extends HTMLElement {
     org_p.setAttribute("class", "organization");
     org_p.innerHTML = getOrganization(data);
 
+    // creating time
+    let time = document.createElement("time");
+    time.innerHTML = convertTime(searchForKey(data, "totalTime"));
+
+    // creating list of ingredients
+    let ingredients = document.createElement("p");
+    ingredients.setAttribute("class", "ingredients");
+    ingredients.innerHTML = reateIngredientList(searchForKey(data, "recipeIngredient"))
+
     // console.log(getUrl(data));
     // console.log(searchForKey(data, "headline"));
     // console.log(searchForKey(data, "thumbnailUrl"));
     // console.log(getOrganization(data));
-    console.log(convertTime(searchForKey(data, "cookTime")));
+    // console.log(convertTime(searchForKey(data, "totalTime")));
+    // console.log(createIngredientList(searchForKey(data, "recipeIngredient")));
+
   }
 }
 
