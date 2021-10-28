@@ -102,6 +102,11 @@ class RecipeCard extends HTMLElement {
     // created in the constructor()
 
     // Part 1 Expose - TODO
+    if (searchForKey(data, "ratingValue") == undefined) {
+      console.log("No review");
+    } else {
+      console.log(searchForKey(data, "ratingValue"));
+    }
   }
 }
 
