@@ -1,0 +1,410 @@
+{
+    "@context":"https://schema.org",
+    "@graph":[
+       {
+          "@type":"Organization",
+          "@id":"https://ifoodreal.com/#organization",
+          "name":"iFoodreal",
+          "url":"https://ifoodreal.com/",
+          "sameAs":[
+             "https://www.facebook.com/iFOODreal/",
+             "https://www.instagram.com/ifoodreal/",
+             "https://www.pinterest.com/ifoodreal/",
+             "https://twitter.com/ifoodreal"
+          ],
+          "logo":{
+             "@type":"ImageObject",
+             "@id":"https://ifoodreal.com/#logo",
+             "inLanguage":"en-US",
+             "url":"https://ifoodreal.com/wp-content/uploads/2017/11/ifrLogo-1.png",
+             "contentUrl":"https://ifoodreal.com/wp-content/uploads/2017/11/ifrLogo-1.png",
+             "width":150,
+             "height":37,
+             "caption":"iFoodreal"
+          },
+          "image":{
+             "@id":"https://ifoodreal.com/#logo"
+          }
+       },
+       {
+          "@type":"WebSite",
+          "@id":"https://ifoodreal.com/#website",
+          "url":"https://ifoodreal.com/",
+          "name":"iFOODreal.com",
+          "description":"",
+          "publisher":{
+             "@id":"https://ifoodreal.com/#organization"
+          },
+          "potentialAction":[
+             {
+                "@type":"SearchAction",
+                "target":{
+                   "@type":"EntryPoint",
+                   "urlTemplate":"https://ifoodreal.com/?s={search_term_string}"
+                },
+                "query-input":"required name=search_term_string"
+             }
+          ],
+          "inLanguage":"en-US"
+       },
+       {
+          "@type":"ImageObject",
+          "@id":"https://ifoodreal.com/baked-chicken-breast/#primaryimage",
+          "inLanguage":"en-US",
+          "url":"https://ifoodreal.com/wp-content/uploads/2018/04/FGbaked-chicken-breast.jpg",
+          "contentUrl":"https://ifoodreal.com/wp-content/uploads/2018/04/FGbaked-chicken-breast.jpg",
+          "width":560,
+          "height":560,
+          "caption":"baked chicken breast"
+       },
+       {
+          "@type":[
+             "WebPage",
+             "FAQPage"
+          ],
+          "@id":"https://ifoodreal.com/baked-chicken-breast/#webpage",
+          "url":"https://ifoodreal.com/baked-chicken-breast/",
+          "name":"Oven Baked Chicken Breast {Extra Juicy Healthy Recipe} - iFOODreal.com",
+          "isPartOf":{
+             "@id":"https://ifoodreal.com/#website"
+          },
+          "primaryImageOfPage":{
+             "@id":"https://ifoodreal.com/baked-chicken-breast/#primaryimage"
+          },
+          "datePublished":"2021-10-25T07:14:00+00:00",
+          "dateModified":"2021-10-25T18:03:34+00:00",
+          "description":"Oven Baked Chicken Breast recipe is easy, juicy and only 5 minutes prep. Simple seasonings result in lean, healthy tender chicken breast.",
+          "breadcrumb":{
+             "@id":"https://ifoodreal.com/baked-chicken-breast/#breadcrumb"
+          },
+          "mainEntity":[
+             {
+                "@id":"https://ifoodreal.com/baked-chicken-breast/#faq-question-1619798842432"
+             },
+             {
+                "@id":"https://ifoodreal.com/baked-chicken-breast/#faq-question-1619798936881"
+             },
+             {
+                "@id":"https://ifoodreal.com/baked-chicken-breast/#faq-question-1619802562982"
+             },
+             {
+                "@id":"https://ifoodreal.com/baked-chicken-breast/#faq-question-1634651882090"
+             },
+             {
+                "@id":"https://ifoodreal.com/baked-chicken-breast/#faq-question-1634651930608"
+             },
+             {
+                "@id":"https://ifoodreal.com/baked-chicken-breast/#faq-question-1634649784274"
+             },
+             {
+                "@id":"https://ifoodreal.com/baked-chicken-breast/#faq-question-1634649802357"
+             }
+          ],
+          "inLanguage":"en-US",
+          "potentialAction":[
+             {
+                "@type":"ReadAction",
+                "target":[
+                   "https://ifoodreal.com/baked-chicken-breast/"
+                ]
+             }
+          ]
+       },
+       {
+          "@type":"BreadcrumbList",
+          "@id":"https://ifoodreal.com/baked-chicken-breast/#breadcrumb",
+          "itemListElement":[
+             {
+                "@type":"ListItem",
+                "position":1,
+                "name":"Home",
+                "item":"https://ifoodreal.com/"
+             },
+             {
+                "@type":"ListItem",
+                "position":2,
+                "name":"Healthy Chicken Recipes",
+                "item":"https://ifoodreal.com/healthy-chicken-recipes/"
+             },
+             {
+                "@type":"ListItem",
+                "position":3,
+                "name":"Oven Baked Chicken Breast"
+             }
+          ]
+       },
+       {
+          "@type":"Article",
+          "@id":"https://ifoodreal.com/baked-chicken-breast/#article",
+          "isPartOf":{
+             "@id":"https://ifoodreal.com/baked-chicken-breast/#webpage"
+          },
+          "author":{
+             "@id":"https://ifoodreal.com/#/schema/person/7aedb80c60fccfd62214f5d5354288b2"
+          },
+          "headline":"Oven Baked Chicken Breast",
+          "datePublished":"2021-10-25T07:14:00+00:00",
+          "dateModified":"2021-10-25T18:03:34+00:00",
+          "wordCount":1996,
+          "commentCount":450,
+          "publisher":{
+             "@id":"https://ifoodreal.com/#organization"
+          },
+          "image":{
+             "@id":"https://ifoodreal.com/baked-chicken-breast/#primaryimage"
+          },
+          "thumbnailUrl":"https://ifoodreal.com/wp-content/uploads/2018/04/FGbaked-chicken-breast.jpg",
+          "keywords":[
+             "chicken"
+          ],
+          "articleSection":[
+             "Chicken",
+             "Chicken Breast",
+             "Chicken Breast",
+             "Easy",
+             "Featured",
+             "Gluten Free",
+             "Healthy Chicken Recipes",
+             "Healthy Dinner Recipes",
+             "Healthy Eating 101",
+             "Kid Friendly",
+             "Low Carb",
+             "Meal Prep",
+             "Video"
+          ],
+          "inLanguage":"en-US",
+          "potentialAction":[
+             {
+                "@type":"CommentAction",
+                "name":"Comment",
+                "target":[
+                   "https://ifoodreal.com/baked-chicken-breast/#respond"
+                ]
+             }
+          ],
+          "accessibilityFeature":[
+             "tableOfContents"
+          ]
+       },
+       {
+          "@type":"Person",
+          "@id":"https://ifoodreal.com/#/schema/person/7aedb80c60fccfd62214f5d5354288b2",
+          "name":"Olena",
+          "image":{
+             "@type":"ImageObject",
+             "@id":"https://ifoodreal.com/#personlogo",
+             "inLanguage":"en-US",
+             "url":"https://secure.gravatar.com/avatar/72e3da6785f1970ad3e445e3ac8e4258?s=96&r=g",
+             "contentUrl":"https://secure.gravatar.com/avatar/72e3da6785f1970ad3e445e3ac8e4258?s=96&r=g",
+             "caption":"Olena"
+          },
+          "sameAs":[
+             "https://ifoodreal.com/"
+          ],
+          "url":"https://ifoodreal.com/author/lenochka/"
+       },
+       {
+          "@type":"Question",
+          "@id":"https://ifoodreal.com/baked-chicken-breast/#faq-question-1619798842432",
+          "position":1,
+          "url":"https://ifoodreal.com/baked-chicken-breast/#faq-question-1619798842432",
+          "name":"Can you bake frozen chicken breasts?",
+          "answerCount":1,
+          "acceptedAnswer":{
+             "@type":"Answer",
+             "text":"Yes. Follow instructions above and add extra 5-10 minutes to baking time. It is a loose recommendation and depending on thickness, make sure to check with meat thermometer for 150 degrees F internal temperature. Or follow <a href=\"https://ifoodreal.com/instant-pot-frozen-chicken-breast/\">Instant Pot frozen chicken breast recipe</a> instead.",
+             "inLanguage":"en-US"
+          },
+          "inLanguage":"en-US"
+       },
+       {
+          "@type":"Question",
+          "@id":"https://ifoodreal.com/baked-chicken-breast/#faq-question-1619798936881",
+          "position":2,
+          "url":"https://ifoodreal.com/baked-chicken-breast/#faq-question-1619798936881",
+          "name":"How many calories there is per serving?",
+          "answerCount":1,
+          "acceptedAnswer":{
+             "@type":"Answer",
+             "text":"I used 2 lbs or 3 large chicken breasts. There are 8 servings. 1 serving is 1/2 cup and it contains 151 calories. Please note nutritional information is estimated to serve as a guideline only and is located in the recipe card below.",
+             "inLanguage":"en-US"
+          },
+          "inLanguage":"en-US"
+       },
+       {
+          "@type":"Question",
+          "@id":"https://ifoodreal.com/baked-chicken-breast/#faq-question-1619802562982",
+          "position":3,
+          "url":"https://ifoodreal.com/baked-chicken-breast/#faq-question-1619802562982",
+          "name":"Can I make it in the air fryer?",
+          "answerCount":1,
+          "acceptedAnswer":{
+             "@type":"Answer",
+             "text":"Yes, here is quick run down of my <a href=\"https://ifoodreal.com/air-fryer-chicken-breast/\">air fryer chicken breast</a> recipe - preheat air fryer to 380 degrees F and bake for 10 minutes on one side, flip and cook for another 8 minutes or so (depending on thickness) and until internal temperature reads 160 degrees F. Remove from the air fryer and let rest for 5 minutes covered.",
+             "inLanguage":"en-US"
+          },
+          "inLanguage":"en-US"
+       },
+       {
+          "@type":"Question",
+          "@id":"https://ifoodreal.com/baked-chicken-breast/#faq-question-1634651882090",
+          "position":4,
+          "url":"https://ifoodreal.com/baked-chicken-breast/#faq-question-1634651882090",
+          "name":"What Is the best internal temperature to know when chicken is ready?",
+          "answerCount":1,
+          "acceptedAnswer":{
+             "@type":"Answer",
+             "text":"When instant read thermometer inserted in the thickest part of meat reads 150 degrees F, it is time to remove roasted chicken breasts from the oven and let them rest under cover. Do not over bake in the oven because chicken will keep cooking with residual heat while resting.",
+             "inLanguage":"en-US"
+          },
+          "inLanguage":"en-US"
+       },
+       {
+          "@type":"Question",
+          "@id":"https://ifoodreal.com/baked-chicken-breast/#faq-question-1634651930608",
+          "position":5,
+          "url":"https://ifoodreal.com/baked-chicken-breast/#faq-question-1634651930608",
+          "name":"When is baked chicken ready to eat?",
+          "answerCount":1,
+          "acceptedAnswer":{
+             "@type":"Answer",
+             "text":"As per <a href=\"https://www.foodsafety.gov/food-safety-charts/safe-minimum-cooking-temperature\" target=\"_blank\" rel=\"noreferrer noopener\">food safety guidelines</a>, any poultry is safe to consume when internal read thermometer reads 165 degrees F. This temperature is hot enough to kill harmful bacteria that causes food poisoning.",
+             "inLanguage":"en-US"
+          },
+          "inLanguage":"en-US"
+       },
+       {
+          "@type":"Question",
+          "@id":"https://ifoodreal.com/baked-chicken-breast/#faq-question-1634649784274",
+          "position":6,
+          "url":"https://ifoodreal.com/baked-chicken-breast/#faq-question-1634649784274",
+          "name":"Do I need to use a meat mallet to tenderize chicken?",
+          "answerCount":1,
+          "acceptedAnswer":{
+             "@type":"Answer",
+             "text":"You don't need to, BUT you do want to bake similar in size chicken breasts, if you need to use a meat mallet to achieve uniform sizes, do so.",
+             "inLanguage":"en-US"
+          },
+          "inLanguage":"en-US"
+       },
+       {
+          "@type":"Question",
+          "@id":"https://ifoodreal.com/baked-chicken-breast/#faq-question-1634649802357",
+          "position":7,
+          "url":"https://ifoodreal.com/baked-chicken-breast/#faq-question-1634649802357",
+          "name":"Should I use a rolling pin to butterfly my chicken between parchment paper?",
+          "answerCount":1,
+          "acceptedAnswer":{
+             "@type":"Answer",
+             "text":"Again, not necessary - here comes the BUT (again) if you have various sizes of chicken breast, I do encourage you to make them uniform in size before baking so they cook evenly at the same time.",
+             "inLanguage":"en-US"
+          },
+          "inLanguage":"en-US"
+       },
+       {
+          "@context":"http://schema.org/",
+          "@type":"Recipe",
+          "name":"Baked Chicken Breast {Extra Juicy Healthy Recipe}",
+          "author":{
+             "@type":"Person",
+             "name":"Olena Osipov"
+          },
+          "description":"Oven Baked Chicken Breast recipe is easy, juicy and ready with 5 minutes of prep. Simple seasonings transform lean, healthy chicken breast into an incredibly full flavored dish- that is baked uncovered and never turns out dry!",
+          "datePublished":"2021-10-25T00:14:00+00:00",
+          "image":[
+             "https://ifoodreal.com/wp-content/uploads/2018/04/FGbaked-chicken-breast.jpg"
+          ],
+          "video":{
+             "name":"Baked Chicken Breast",
+             "description":"Oven Baked Chicken Breast recipe is easy, juicy and ready with 5 minutes of prep. Simple seasonings transform lean, healthy chicken breast into an incredibly full flavored dish- that is baked uncovered and never turns out dry!",
+             "thumbnailUrl":"https://content.jwplatform.com/thumbs/3VoxpKBa-720.jpg",
+             "contentUrl":"https://content.jwplatform.com/videos/3VoxpKBa.mp4",
+             "uploadDate":"2021-10-18T23:00:00.000Z",
+             "@type":"VideoObject"
+          },
+          "recipeYield":[
+             "8",
+             "8 servings"
+          ],
+          "prepTime":"PT5M",
+          "cookTime":"PT35M",
+          "totalTime":"PT50M",
+          "recipeIngredient":[
+             "2 lbs boneless &amp; skinless chicken breasts",
+             "1 tbsp avocado or olive oil",
+             "1 tsp smoked paprika",
+             "1 tsp garlic powder",
+             "1 tsp oregano",
+             "1/2 tsp salt",
+             "Ground black pepper (to taste)"
+          ],
+          "recipeInstructions":[
+             {
+                "@type":"HowToStep",
+                "text":"Preheat oven to 450 degrees F. In a medium baking dish, place chicken, drizzle with oil and sprinkle with smoked paprika, garlic powder, oregano, salt and pepper.",
+                "name":"Preheat oven to 450 degrees F. In a medium baking dish, place chicken, drizzle with oil and sprinkle with smoked paprika, garlic powder, oregano, salt and pepper.",
+                "url":"https://ifoodreal.com/baked-chicken-breast/#wprm-recipe-39282-step-0-0",
+                "image":"https://ifoodreal.com/wp-content/uploads/2018/04/baked-chicken-breast-2.jpg"
+             },
+             {
+                "@type":"HowToStep",
+                "text":"Using tongs or hands, move chicken around to coat on all sides evenly (I place bottom of breast on top of seasoned one and then swoosh around).",
+                "name":"Using tongs or hands, move chicken around to coat on all sides evenly (I place bottom of breast on top of seasoned one and then swoosh around).",
+                "url":"https://ifoodreal.com/baked-chicken-breast/#wprm-recipe-39282-step-0-1",
+                "image":"https://ifoodreal.com/wp-content/uploads/2018/04/baked-chicken-breast-3.jpg"
+             },
+             {
+                "@type":"HowToStep",
+                "text":"Bake for 25 minutes (under 2&quot;) to 35 minutes (2&quot;+) or until instant meat thermometer inserted in the thickest part reads 150 degrees F.",
+                "name":"Bake for 25 minutes (under 2&quot;) to 35 minutes (2&quot;+) or until instant meat thermometer inserted in the thickest part reads 150 degrees F.",
+                "url":"https://ifoodreal.com/baked-chicken-breast/#wprm-recipe-39282-step-0-2",
+                "image":"https://ifoodreal.com/wp-content/uploads/2018/04/baked-chicken-breast-7.jpg"
+             },
+             {
+                "@type":"HowToStep",
+                "text":"Remove from the oven, cover with foil or lid, and let rest for 10 minutes for the juices to settle\u00a0(don&#039;t skip!).",
+                "name":"Remove from the oven, cover with foil or lid, and let rest for 10 minutes for the juices to settle\u00a0(don&#039;t skip!).",
+                "url":"https://ifoodreal.com/baked-chicken-breast/#wprm-recipe-39282-step-0-3",
+                "image":"https://ifoodreal.com/wp-content/uploads/2018/04/baked-chicken-breast-4.jpg"
+             },
+             {
+                "@type":"HowToStep",
+                "text":"Slice against the grain and serve along any side with a salad. Meal prep for the week, use in salads and casseroles.",
+                "name":"Slice against the grain and serve along any side with a salad. Meal prep for the week, use in salads and casseroles.",
+                "url":"https://ifoodreal.com/baked-chicken-breast/#wprm-recipe-39282-step-0-4",
+                "image":"https://ifoodreal.com/wp-content/uploads/2018/04/baked-chicken-breast-10.jpg"
+             }
+          ],
+          "aggregateRating":{
+             "@type":"AggregateRating",
+             "ratingValue":"4.98",
+             "ratingCount":"228"
+          },
+          "recipeCategory":[
+             "Dinner"
+          ],
+          "recipeCuisine":[
+             "North American"
+          ],
+          "keywords":"baked chicken breast, baked chicken breast recipe, chicken breast recipes, healthy baked chicken, healthy chicken breast recipe, healthy chicken breast recipes, how long to bake chicken breast, how to bake chicken, oven baked chicken breast, oven roasted chicken breast",
+          "nutrition":{
+             "@type":"NutritionInformation",
+             "servingSize":"0.5 cup",
+             "calories":"147 kcal",
+             "sugarContent":"1 g",
+             "sodiumContent":"277 mg",
+             "fatContent":"5 g",
+             "saturatedFatContent":"1 g",
+             "carbohydrateContent":"1 g",
+             "fiberContent":"1 g",
+             "proteinContent":"24 g",
+             "cholesterolContent":"73 mg"
+          },
+          "@id":"https://ifoodreal.com/baked-chicken-breast/#recipe",
+          "isPartOf":{
+             "@id":"https://ifoodreal.com/baked-chicken-breast/#article"
+          },
+          "mainEntityOfPage":"https://ifoodreal.com/baked-chicken-breast/#webpage"
+       }
+    ]
+ }

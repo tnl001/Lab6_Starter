@@ -117,6 +117,10 @@ class RecipeCard extends HTMLElement {
       let raw_rating_val = searchForKey(data, "ratingValue");
       let rounded_rating_val = Math.round(raw_rating_val);
       let rating_count = searchForKey(data, "ratingCount");
+      if (!rating_count) {
+        rating_count = searchForKey(data, "reviewCount");
+      }
+
       rating_span.innerHTML = raw_rating_val;
       review_span.innerHTML = "(" + rating_count + ")";
 

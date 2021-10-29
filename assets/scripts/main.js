@@ -5,7 +5,10 @@
 const recipes = [
   'https://introweb.tech/assets/json/ghostCookies.json',
   'https://introweb.tech/assets/json/birthdayCake.json',
-  'https://introweb.tech/assets/json/chocolateChip.json'
+  'https://introweb.tech/assets/json/chocolateChip.json',
+  'assets/recipes/baked-chicken-breast.json',
+  'assets/recipes/honey-garlic-glazed-salmon.json',
+  'assets/recipes/homemade-tomato-soup.json'
 ];
 
 // Once all of the recipes that were specified above have been fetched, their
@@ -62,6 +65,8 @@ async function fetchRecipes() {
   });
 }
 
+const preloaded = 3;
+
 function createRecipeCards() {
   // This function is called for you up above.
   // From within this function you can access the recipe data from the JSON 
@@ -74,7 +79,8 @@ function createRecipeCards() {
 
   let main_section = document.querySelector("main");
 
-  for (let i = 0; i < Object.keys(recipeData).length; i++) {
+  // append only the first 3 recipes to main
+  for (let i = 0; i < preloaded; i++) {
     let recipe_card = document.createElement("recipe-card");
     recipe_card.data = recipeData[i];
     main_section.appendChild(recipe_card);
@@ -90,4 +96,27 @@ function bindShowMore() {
   // in the recipeData object where you stored them/
 
   // Part 2 Explore - TODO
+  let button = document.querySelector("button"); // get the button object
+  let main_section = document.querySelector("main");
+
+  button.addEventListener('click', () => {
+    if (button.innerHTML == "Show more") {
+      button.innerHTML = "Show less";
+      
+      // add the new 3 recipes (almost identical to createRecipes function)
+      for (let i = preloaded; i < Object.keys(recipeData).length; i++) {
+        let recipe_card = document.createElement("recipe-card");
+        recipe_card.data = recipeData[i];
+        main_section.appendChild(recipe_card);
+      }
+    } else {
+      button.innerHTML = "Show more";
+
+      // remove the last 3 recipes on show less
+      for (let i = Object.keys(recipeData).length-1; i >= preloaded; i--) {
+        main_section.removeChild(main_section.lastChild);
+      }
+    }
+
+  });
 }

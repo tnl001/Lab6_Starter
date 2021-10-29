@@ -1,0 +1,324 @@
+{
+    "@context":"https://schema.org",
+    "@graph":[
+       {
+          "@type":"Organization",
+          "@id":"https://www.aheadofthyme.com/#organization",
+          "name":"Ahead of Thyme",
+          "url":"https://www.aheadofthyme.com/",
+          "sameAs":[
+             "http://www.facebook.com/aheadofthyme",
+             "http://www.instagram.com/aheadofthyme",
+             "http://www.pinterest.com/aheadofthyme",
+             "https://twitter.com/aheadofthyme"
+          ],
+          "logo":{
+             "@type":"ImageObject",
+             "@id":"https://www.aheadofthyme.com/#logo",
+             "inLanguage":"en-US",
+             "url":"https://www.aheadofthyme.com/wp-content/uploads/2020/04/aheadofthyme-logo-1000px.jpg",
+             "contentUrl":"https://www.aheadofthyme.com/wp-content/uploads/2020/04/aheadofthyme-logo-1000px.jpg",
+             "width":1000,
+             "height":1000,
+             "caption":"Ahead of Thyme"
+          },
+          "image":{
+             "@id":"https://www.aheadofthyme.com/#logo"
+          }
+       },
+       {
+          "@type":"WebSite",
+          "@id":"https://www.aheadofthyme.com/#website",
+          "url":"https://www.aheadofthyme.com/",
+          "name":"Ahead of Thyme",
+          "description":"Quick and easy recipes to help busy people eat real food.",
+          "publisher":{
+             "@id":"https://www.aheadofthyme.com/#organization"
+          },
+          "potentialAction":[
+             {
+                "@type":"SearchAction",
+                "target":{
+                   "@type":"EntryPoint",
+                   "urlTemplate":"https://www.aheadofthyme.com/?s={search_term_string}"
+                },
+                "query-input":"required name=search_term_string"
+             }
+          ],
+          "inLanguage":"en-US"
+       },
+       {
+          "@type":"ImageObject",
+          "@id":"https://www.aheadofthyme.com/honey-garlic-glazed-salmon/#primaryimage",
+          "inLanguage":"en-US",
+          "url":"https://www.aheadofthyme.com/wp-content/uploads/2021/02/honey-garlic-glazed-salmon-2.jpg",
+          "contentUrl":"https://www.aheadofthyme.com/wp-content/uploads/2021/02/honey-garlic-glazed-salmon-2.jpg",
+          "width":1200,
+          "height":1800,
+          "caption":"Sticky and sweet, easy honey garlic glazed salmon is one of the best salmon recipes to add to your weeknight dinner rotation. Ready in under 25 minutes. | aheadofthyme.com"
+       },
+       {
+          "@type":"WebPage",
+          "@id":"https://www.aheadofthyme.com/honey-garlic-glazed-salmon/#webpage",
+          "url":"https://www.aheadofthyme.com/honey-garlic-glazed-salmon/",
+          "name":"Honey Garlic Glazed Salmon - Ahead of Thyme",
+          "isPartOf":{
+             "@id":"https://www.aheadofthyme.com/#website"
+          },
+          "primaryImageOfPage":{
+             "@id":"https://www.aheadofthyme.com/honey-garlic-glazed-salmon/#primaryimage"
+          },
+          "datePublished":"2021-02-25T16:00:00+00:00",
+          "dateModified":"2021-09-26T22:48:27+00:00",
+          "description":"Sticky and sweet, easy honey garlic glazed salmon is one of the best salmon recipes to add to your weeknight dinner rotation. Ready in under 25 minutes.",
+          "breadcrumb":{
+             "@id":"https://www.aheadofthyme.com/honey-garlic-glazed-salmon/#breadcrumb"
+          },
+          "inLanguage":"en-US",
+          "potentialAction":[
+             {
+                "@type":"ReadAction",
+                "target":[
+                   "https://www.aheadofthyme.com/honey-garlic-glazed-salmon/"
+                ]
+             }
+          ]
+       },
+       {
+          "@type":"BreadcrumbList",
+          "@id":"https://www.aheadofthyme.com/honey-garlic-glazed-salmon/#breadcrumb",
+          "itemListElement":[
+             {
+                "@type":"ListItem",
+                "position":1,
+                "name":"Home",
+                "item":"https://www.aheadofthyme.com/"
+             },
+             {
+                "@type":"ListItem",
+                "position":2,
+                "name":"Seafood",
+                "item":"https://www.aheadofthyme.com/seafood-recipes/"
+             },
+             {
+                "@type":"ListItem",
+                "position":3,
+                "name":"Honey Garlic Glazed Salmon"
+             }
+          ]
+       },
+       {
+          "@type":"Article",
+          "@id":"https://www.aheadofthyme.com/honey-garlic-glazed-salmon/#article",
+          "isPartOf":{
+             "@id":"https://www.aheadofthyme.com/honey-garlic-glazed-salmon/#webpage"
+          },
+          "author":{
+             "@id":"https://www.aheadofthyme.com/#/schema/person/807975d72922708fb1c71648ec43f129"
+          },
+          "headline":"Honey Garlic Glazed Salmon",
+          "datePublished":"2021-02-25T16:00:00+00:00",
+          "dateModified":"2021-09-26T22:48:27+00:00",
+          "wordCount":689,
+          "commentCount":8,
+          "publisher":{
+             "@id":"https://www.aheadofthyme.com/#organization"
+          },
+          "image":{
+             "@id":"https://www.aheadofthyme.com/honey-garlic-glazed-salmon/#primaryimage"
+          },
+          "thumbnailUrl":"https://www.aheadofthyme.com/wp-content/uploads/2021/02/honey-garlic-glazed-salmon-2.jpg",
+          "keywords":[
+             "Air Fryer Salmon",
+             "Fish",
+             "Honey garlic",
+             "Honey garlic salmon",
+             "Honey glazed",
+             "Honey glazed salmon",
+             "Salmon",
+             "Seafood"
+          ],
+          "articleSection":[
+             "30 Minute Dinners",
+             "30 Minute Meals (or Less)",
+             "Air Fryer Recipes",
+             "Asian Takeout",
+             "One Pot",
+             "Recipes",
+             "Seafood",
+             "Spring Recipes",
+             "Summer Recipes",
+             "Winter Recipes"
+          ],
+          "inLanguage":"en-US",
+          "potentialAction":[
+             {
+                "@type":"CommentAction",
+                "name":"Comment",
+                "target":[
+                   "https://www.aheadofthyme.com/honey-garlic-glazed-salmon/#respond"
+                ]
+             }
+          ]
+       },
+       {
+          "@type":"Person",
+          "@id":"https://www.aheadofthyme.com/#/schema/person/807975d72922708fb1c71648ec43f129",
+          "name":"Sam Hu | Ahead of Thyme",
+          "sameAs":[
+             "https://www.aheadofthyme.com",
+             "http://www.facebook.com/aheadofthyme",
+             "https://www.instagram.com/aheadofthyme",
+             "http://www.pinterest.com/aheadofthyme",
+             "https://twitter.com/aheadofthyme"
+          ]
+       },
+       {
+          "@context":"https://schema.org/",
+          "@type":"Recipe",
+          "name":"Honey Garlic Glazed Salmon",
+          "description":"Sticky and sweet, easy honey garlic glazed salmon is one of the best salmon recipes to add to your weeknight dinner rotation. Ready in under 25 minutes.",
+          "author":{
+             "@type":"Person",
+             "name":"Sam Hu | Ahead of Thyme"
+          },
+          "keywords":"honey garlic glazed salmon, honey glazed salmon, glazed salmon with honey and garlic, easy salmon, salmon dinner, skillet salmon",
+          "image":[
+             "https://www.aheadofthyme.com/wp-content/uploads/2021/02/honey-garlic-glazed-salmon-2-225x225.jpg",
+             "https://www.aheadofthyme.com/wp-content/uploads/2021/02/honey-garlic-glazed-salmon-2-260x195.jpg",
+             "https://www.aheadofthyme.com/wp-content/uploads/2021/02/honey-garlic-glazed-salmon-2-320x180.jpg",
+             "https://www.aheadofthyme.com/wp-content/uploads/2021/02/honey-garlic-glazed-salmon-2.jpg"
+          ],
+          "url":"https://www.aheadofthyme.com/honey-garlic-glazed-salmon/",
+          "recipeIngredient":[
+             "1 1/2 lb. skin-on salmon fillets, about 1.5-inch thick",
+             "1/2 teaspoon salt\u00a0(or to taste)",
+             "1/2 teaspoon ground black pepper\u00a0(or to taste)",
+             "2 tablespoons olive oil",
+             "2 tablespoon soy sauce",
+             "2 tablespoons honey",
+             "1/4 cup water",
+             "1 teaspoon cornstarch",
+             "1 teaspoon\u00a0lemon juice, freshly squeezed",
+             "1 tablespoon\u00a0garlic,\u00a0finely chopped",
+             "1 tablespoon green onions, finely chopped"
+          ],
+          "recipeInstructions":[
+             {
+                "@type":"HowToStep",
+                "text":"Pat dry salmon fillets and season with salt and pepper. Set aside at room temperature for 10 to 15 minutes.",
+                "url":"https://www.aheadofthyme.com/honey-garlic-glazed-salmon/#instruction-step-1"
+             },
+             {
+                "@type":"HowToStep",
+                "text":"In a large skillet, heat oil for 2 minutes over medium-high heat until the hot oil sizzles. Sear the salmon fillets for 5-6 minutes on each side (skin side facing up first), until golden brown and fully cooked. When salmon is cooked, the flesh will turn opaque, and it will flake easily when inserting a fork. Transfer the cooked salmon onto a plate.\u00a0",
+                "url":"https://www.aheadofthyme.com/honey-garlic-glazed-salmon/#instruction-step-2"
+             },
+             {
+                "@type":"HowToStep",
+                "text":"In a small bowl, whisk together soy sauce, honey, water, cornstarch and lemon juice. Whisk well to combine until the cornstarch dissolves. Set aside.",
+                "url":"https://www.aheadofthyme.com/honey-garlic-glazed-salmon/#instruction-step-3"
+             },
+             {
+                "@type":"HowToStep",
+                "text":"In the same skillet, add garlic and saut\u00e9 until fragrant over medium heat, about 1 minute. Stir in sauce mixture and cook for 3-4 minutes. Keep stirring until thickened to a desired consistency.",
+                "url":"https://www.aheadofthyme.com/honey-garlic-glazed-salmon/#instruction-step-4"
+             },
+             {
+                "@type":"HowToStep",
+                "text":"Return the cooked salmon to the skillet and toss well to coat evenly. Garnish with green onions and serve warm with a bowl of steamed rice.",
+                "url":"https://www.aheadofthyme.com/honey-garlic-glazed-salmon/#instruction-step-5"
+             }
+          ],
+          "prepTime":"PT10M",
+          "cookTime":"PT15M",
+          "totalTime":"PT25M",
+          "recipeYield":[
+             "2",
+             "2-3 servings"
+          ],
+          "recipeCategory":"Seafood",
+          "cookingMethod":"Stovetop",
+          "recipeCuisine":"American",
+          "suitableForDiet":"GlutenFreeDiet",
+          "aggregateRating":{
+             "@type":"AggregateRating",
+             "reviewCount":"3",
+             "ratingValue":"5"
+          },
+          "nutrition":{
+             "servingSize":"1 serving",
+             "calories":"329",
+             "sugarContent":"9.2 g",
+             "sodiumContent":"642.1 mg",
+             "fatContent":"15 g",
+             "saturatedFatContent":"2.4 g",
+             "transFatContent":"0 g",
+             "carbohydrateContent":"11.5 g",
+             "fiberContent":"0.2 g",
+             "proteinContent":"38.7 g",
+             "cholesterolContent":"86.9 mg",
+             "@type":"nutritionInformation"
+          },
+          "video":{
+             "@context":"http://schema.org",
+             "@type":"VideoObject",
+             "name":"Honey Garlic Glazed Salmon",
+             "description":"Sticky and sweet, this easy honey garlic glazed salmon is one of the best salmon recipes to add to your weeknight dinner rotation. It comes together with just a handful of simple ingredients, in one pan, and in under 25 minutes. It's delicious, flaky, garlicky, and is packed with so much flavour. This one is a keeper.\n\nFULL RECIPE: https://www.aheadofthyme.com/honey-garlic-glazed-salmon/\n\nPIN for later: https://www.pinterest.ca/pin/150870656257902639/\n\nC O N N E C T \n\nInstagram: https://www.instagram.com/aheadofthyme/\nFacebook: https://www.facebook.com/aheadofthyme/\nTwitter: https://twitter.com/aheadofthyme\nPinterest: https://www.pinterest.com/aheadofthyme/\n\nCode: EDXMOMSK2JWR9554\n\n#salmon #honeygarlicsalmon #salmonrecipe",
+             "embedUrl":"https://www.youtube.com/embed/dvHCGQ4ydMc?feature=oembed",
+             "contentUrl":"https://www.youtube.com/watch?v=dvHCGQ4ydMc",
+             "thumbnailUrl":[
+                "https://i.ytimg.com/vi/dvHCGQ4ydMc/hqdefault.jpg"
+             ],
+             "uploadDate":"2021-09-23"
+          },
+          "review":[
+             {
+                "@type":"Review",
+                "reviewRating":{
+                   "@type":"Rating",
+                   "ratingValue":"5"
+                },
+                "author":{
+                   "@type":"Person",
+                   "name":"Nellie Tracy"
+                },
+                "datePublished":"2021-02-25",
+                "reviewBody":"This is such a great salmon glaze recipe! My new favorite way to prepare it!"
+             },
+             {
+                "@type":"Review",
+                "reviewRating":{
+                   "@type":"Rating",
+                   "ratingValue":"5"
+                },
+                "author":{
+                   "@type":"Person",
+                   "name":"Beth"
+                },
+                "datePublished":"2021-02-25",
+                "reviewBody":"This recipe checks all my dinner boxes:  fast, flavorful, and quick and easy clean up!  I'm sold!"
+             },
+             {
+                "@type":"Review",
+                "reviewRating":{
+                   "@type":"Rating",
+                   "ratingValue":"5"
+                },
+                "author":{
+                   "@type":"Person",
+                   "name":"Cheryl"
+                },
+                "datePublished":"2021-02-26",
+                "reviewBody":"I made this for my family last night. This recipe is a keeper!  We loved it. It has a nice balance of salty and sweet. I appreciated the instructions on pan-searing/cooking the salmon. It was cooked just right. I did keep the salmon in a warm oven (200) while I prepared the sauce."
+             }
+          ],
+          "datePublished":"2021-02-25",
+          "@id":"https://www.aheadofthyme.com/honey-garlic-glazed-salmon/#recipe",
+          "isPartOf":{
+             "@id":"https://www.aheadofthyme.com/honey-garlic-glazed-salmon/#article"
+          },
+          "mainEntityOfPage":"https://www.aheadofthyme.com/honey-garlic-glazed-salmon/#webpage"
+       }
+    ]
+ }

@@ -1,0 +1,523 @@
+{
+    "@context":"https://schema.org",
+    "@graph":[
+       {
+          "@type":"Organization",
+          "@id":"https://www.feastingathome.com/#organization",
+          "name":"Feasting at Home Blog",
+          "url":"https://www.feastingathome.com/",
+          "sameAs":[
+             "https://www.facebook.com/feastingathome",
+             "https://instagram.com/feastingathome/",
+             "https://www.pinterest.com/feastingathome/",
+             "https://twitter.com/feastingathome"
+          ],
+          "logo":{
+             "@type":"ImageObject",
+             "@id":"https://www.feastingathome.com/#logo",
+             "inLanguage":"en-US",
+             "url":"https://www.feastingathome.com/wp-content/uploads/2019/05/square-logo.jpg",
+             "contentUrl":"https://www.feastingathome.com/wp-content/uploads/2019/05/square-logo.jpg",
+             "width":112,
+             "height":112,
+             "caption":"Feasting at Home Blog"
+          },
+          "image":{
+             "@id":"https://www.feastingathome.com/#logo"
+          }
+       },
+       {
+          "@type":"WebSite",
+          "@id":"https://www.feastingathome.com/#website",
+          "url":"https://www.feastingathome.com/",
+          "name":"Feasting At Home",
+          "description":"Where healthy meets delicious!",
+          "publisher":{
+             "@id":"https://www.feastingathome.com/#organization"
+          },
+          "potentialAction":[
+             {
+                "@type":"SearchAction",
+                "target":{
+                   "@type":"EntryPoint",
+                   "urlTemplate":"https://www.feastingathome.com/?s={search_term_string}"
+                },
+                "query-input":"required name=search_term_string"
+             }
+          ],
+          "inLanguage":"en-US"
+       },
+       {
+          "@type":"ImageObject",
+          "@id":"https://www.feastingathome.com/simple-tomato-soup/#primaryimage",
+          "inLanguage":"en-US",
+          "url":"https://www.feastingathome.com/wp-content/uploads/2020/09/Tomato-Soup.jpg",
+          "contentUrl":"https://www.feastingathome.com/wp-content/uploads/2020/09/Tomato-Soup.jpg",
+          "width":780,
+          "height":1170,
+          "caption":"Homemade Tomato Soup made with fresh or canned tomatoes, made in under 30 minutes. Creamy, easy and Vegan-adaptable! #tomatosoup"
+       },
+       {
+          "@type":"WebPage",
+          "@id":"https://www.feastingathome.com/simple-tomato-soup/#webpage",
+          "url":"https://www.feastingathome.com/simple-tomato-soup/",
+          "name":"Easy Classic Tomato Soup &ndash; Feasting At Home",
+          "isPartOf":{
+             "@id":"https://www.feastingathome.com/#website"
+          },
+          "primaryImageOfPage":{
+             "@id":"https://www.feastingathome.com/simple-tomato-soup/#primaryimage"
+          },
+          "datePublished":"2020-09-17T16:32:43+00:00",
+          "dateModified":"2021-10-25T21:03:51+00:00",
+          "description":"Simply the BEST recipe for homemade Tomato Soup made w/ fresh tomatoes (or canned). Creamy, Vegan-adaptable & can be made in 30 mins!",
+          "breadcrumb":{
+             "@id":"https://www.feastingathome.com/simple-tomato-soup/#breadcrumb"
+          },
+          "inLanguage":"en-US",
+          "potentialAction":[
+             {
+                "@type":"ReadAction",
+                "target":[
+                   "https://www.feastingathome.com/simple-tomato-soup/"
+                ]
+             }
+          ]
+       },
+       {
+          "@type":"BreadcrumbList",
+          "@id":"https://www.feastingathome.com/simple-tomato-soup/#breadcrumb",
+          "itemListElement":[
+             {
+                "@type":"ListItem",
+                "position":1,
+                "name":"Home",
+                "item":"https://www.feastingathome.com/"
+             },
+             {
+                "@type":"ListItem",
+                "position":2,
+                "name":"Soups and Stews",
+                "item":"https://www.feastingathome.com/category/soup/"
+             },
+             {
+                "@type":"ListItem",
+                "position":3,
+                "name":"Homemade Tomato Soup"
+             }
+          ]
+       },
+       {
+          "@type":"Article",
+          "@id":"https://www.feastingathome.com/simple-tomato-soup/#article",
+          "isPartOf":{
+             "@id":"https://www.feastingathome.com/simple-tomato-soup/#webpage"
+          },
+          "author":{
+             "@id":"https://www.feastingathome.com/#/schema/person/9666555b5e4a65cdf242ae63d70de714"
+          },
+          "headline":"Homemade Tomato Soup",
+          "datePublished":"2020-09-17T16:32:43+00:00",
+          "dateModified":"2021-10-25T21:03:51+00:00",
+          "wordCount":632,
+          "commentCount":129,
+          "publisher":{
+             "@id":"https://www.feastingathome.com/#organization"
+          },
+          "image":{
+             "@id":"https://www.feastingathome.com/simple-tomato-soup/#primaryimage"
+          },
+          "thumbnailUrl":"https://www.feastingathome.com/wp-content/uploads/2020/09/Tomato-Soup.jpg",
+          "articleSection":[
+             "Comfort Food",
+             "Energizing Recipes",
+             "Entertaining",
+             "Fall Recipes",
+             "FAST &amp; HEALTHY Weeknight Dinners!",
+             "FAST AND FRESH!",
+             "Gluten-Free Recipes",
+             "Homepage",
+             "Meal Prep Recipes",
+             "One Pot Meals",
+             "Soups and Stews",
+             "Vegan Recipes (or adaptable)",
+             "Vegetable Based Recipes",
+             "Vegetarian Recipes",
+             "Video Recipes"
+          ],
+          "inLanguage":"en-US",
+          "potentialAction":[
+             {
+                "@type":"CommentAction",
+                "name":"Comment",
+                "target":[
+                   "https://www.feastingathome.com/simple-tomato-soup/#respond"
+                ]
+             }
+          ]
+       },
+       {
+          "@type":"Person",
+          "@id":"https://www.feastingathome.com/#/schema/person/9666555b5e4a65cdf242ae63d70de714",
+          "name":"Sylvia Fountaine | Feasting at Home",
+          "image":{
+             "@type":"ImageObject",
+             "@id":"https://www.feastingathome.com/#personlogo",
+             "inLanguage":"en-US",
+             "url":"https://secure.gravatar.com/avatar/aab223bd6eb54ad302794719a6e9fba0?s=96&d=blank&r=g",
+             "contentUrl":"https://secure.gravatar.com/avatar/aab223bd6eb54ad302794719a6e9fba0?s=96&d=blank&r=g",
+             "caption":"Sylvia Fountaine | Feasting at Home"
+          },
+          "sameAs":[
+             "https://www.feastingathome.com",
+             "https://twitter.com/feastingathome"
+          ],
+          "url":"https://www.feastingathome.com/author/sylviafeastingathome-com/"
+       },
+       {
+          "@context":"https://schema.org/",
+          "@type":"Recipe",
+          "name":"Homemade Tomato Soup",
+          "description":"Homemade Tomato Soup made with fresh or canned tomatoes, made in under 30 minutes. Creamy, easy and Vegan-adaptable (see notes)!",
+          "author":{
+             "@type":"Person",
+             "name":"Sylvia Fountaine | Feasting at Home",
+             "url":"https://www.feastingathome.com/about/"
+          },
+          "keywords":"tomato soup, tomato soup recipe, easy tomato soup, vegan tomato soup, creamy tomato soup, best tomato soup, tomato basil soup",
+          "image":[
+             "https://www.feastingathome.com/wp-content/uploads/2020/09/Tomato-Soup-16-225x225.jpg",
+             "https://www.feastingathome.com/wp-content/uploads/2020/09/Tomato-Soup-16-260x195.jpg",
+             "https://www.feastingathome.com/wp-content/uploads/2020/09/Tomato-Soup-16-320x180.jpg",
+             "https://www.feastingathome.com/wp-content/uploads/2020/09/Tomato-Soup-16.jpg"
+          ],
+          "url":"https://www.feastingathome.com/simple-tomato-soup/",
+          "recipeIngredient":[
+             "4 tablespoons ghee, butter or olive oil (the ghee is good!)",
+             "1 extra-large onion, diced",
+             "1 cup carrots, thinly sliced\u00a0(or one red bell pepper) or use both-the best!!)",
+             "2 lbs fresh tomatoes ( or one, 28-ounce can of San Marzano Tomatoes)",
+             "1 cup water plus 1-2 bouillon cubes (chicken or veggie)",
+             "2 tablespoons honey or sugar (or sugar alternative)",
+             "1 teaspoon salt, more to taste",
+             "1/2 teaspoon pepper",
+             "10-15 basil leaves",
+             "pinch cayenne (optional, but good)",
+             "1/2 cup heavy cream or half and half (or sub-cashews-see notes)",
+             "1-2 tablespoon sour cream- optional!",
+             "Add chopped tomatoes for more texture.",
+             "Add a few basil ribbons",
+             "\u00a0Arugula almond pesto",
+             "\u00a0Sourdough croutons!",
+             "parmesan cheese, pecorino or try\u00a0Vegan Cheesy Sprinkle!"
+          ],
+          "recipeInstructions":[
+             {
+                "@type":"HowToStep",
+                "text":"Heat butter in a heavy bottom pan over medium-high heat. Add the onions, and saute until softened about 3-4 minutes. Add the carrots, lower heat to medium, saute 3-4 minutes more until onions are golden and fragrant.",
+                "url":"https://www.feastingathome.com/simple-tomato-soup/#instruction-step-1"
+             },
+             {
+                "@type":"HowToStep",
+                "text":"Add the tomatoes, water, bouillon cubes, honey or sugar, salt and pepper. (If making this vegan, add cashews now-see notes.) Stir, increase heat and bring to a simmer, cover, then lower heat to low, so it&#8217;s gently simmering. \u00a0Simmer 10-15 minutes until the tomatoes have broken down and carrots are tender. Remove from heat.",
+                "url":"https://www.feastingathome.com/simple-tomato-soup/#instruction-step-2"
+             },
+             {
+                "@type":"HowToStep",
+                "text":"Using an immersion blender, blend the soup adding the basil leaves. \u00a0Or you can blend in a blender.",
+                "url":"https://www.feastingathome.com/simple-tomato-soup/#instruction-step-3"
+             },
+             {
+                "@type":"HowToStep",
+                "text":"Return it to the pot. Stir in the cream.",
+                "url":"https://www.feastingathome.com/simple-tomato-soup/#instruction-step-4"
+             },
+             {
+                "@type":"HowToStep",
+                "text":"Taste and adjust salt and sugar. Add a little pinch of cayenne.",
+                "url":"https://www.feastingathome.com/simple-tomato-soup/#instruction-step-5"
+             },
+             {
+                "@type":"HowToStep",
+                "text":"Whisk in the sour cream if you like.",
+                "url":"https://www.feastingathome.com/simple-tomato-soup/#instruction-step-6"
+             },
+             {
+                "@type":"HowToStep",
+                "text":"Serve in bowls with basil ribbons, arugula almond pesto, croutons, pecorino, or fresh little tomatoes (halved).",
+                "url":"https://www.feastingathome.com/simple-tomato-soup/#instruction-step-7"
+             }
+          ],
+          "prepTime":"PT10M",
+          "cookTime":"PT20M",
+          "totalTime":"PT30M",
+          "recipeYield":[
+             "4",
+             "4-5 cups"
+          ],
+          "recipeCategory":"soup",
+          "cookingMethod":"stovetop",
+          "recipeCuisine":"American",
+          "suitableForDiet":"VegetarianDiet",
+          "aggregateRating":{
+             "@type":"AggregateRating",
+             "reviewCount":"54",
+             "ratingValue":"5"
+          },
+          "nutrition":{
+             "servingSize":null,
+             "calories":"269",
+             "sugarContent":"8.6 g",
+             "sodiumContent":"1086 mg",
+             "fatContent":"8.9 g",
+             "saturatedFatContent":"3.4 g",
+             "transFatContent":"0.2 g",
+             "carbohydrateContent":"15 g",
+             "fiberContent":"3.9 g",
+             "proteinContent":"33.6 g",
+             "cholesterolContent":"85.9 mg",
+             "@type":"nutritionInformation"
+          },
+          "video":{
+             "@context":"http://schema.org",
+             "@type":"VideoObject",
+             "name":"Simple Tomato Soup Video ",
+             "description":"Simple Tomato Soup can be made in under 30 minutes. It\u2019s cozy, comforting, and perfect for bridging the season between summer and fall. Vegan-adaptable. Video.",
+             "contentUrl":"https://content.jwplatform.com/videos/NuNDlcVZ.mp4",
+             "thumbnailUrl":[
+                "https://content.jwplatform.com/thumbs/NuNDlcVZ-720.jpg"
+             ],
+             "uploadDate":"2020-10-30"
+          },
+          "review":[
+             {
+                "@type":"Review",
+                "reviewRating":{
+                   "@type":"Rating",
+                   "ratingValue":"5"
+                },
+                "author":{
+                   "@type":"Person",
+                   "name":"Cindy"
+                },
+                "datePublished":"2021-08-30",
+                "reviewBody":"Absolute delicious! I opted for the half cup of raw cashews and it was really good. I had so much cherry and other small tomatoes from my garden that needed to be used and this recipe was more than welcome. Thank you so so much for all your fabulous recipes."
+             },
+             {
+                "@type":"Review",
+                "reviewRating":{
+                   "@type":"Rating",
+                   "ratingValue":"5"
+                },
+                "author":{
+                   "@type":"Person",
+                   "name":"Julie Nickel"
+                },
+                "datePublished":"2021-08-30",
+                "reviewBody":"This is the absolute best tomato soup we have ever eaten! My hubby said \"Its like the soup you don't get enough of, before your meal in a fancy restaurant\"! LOL\r\nI used tomatoes and basil from my garden, onions, carrots, celery and several sweet peppers (just because I like veggies) and doubled the recipe. The cayenne was sprinkled on each serving to individual tastes. Yum, Yum, Yum!!!"
+             },
+             {
+                "@type":"Review",
+                "reviewRating":{
+                   "@type":"Rating",
+                   "ratingValue":"5"
+                },
+                "author":{
+                   "@type":"Person",
+                   "name":"Lori"
+                },
+                "datePublished":"2021-09-09",
+                "reviewBody":"Delicious!  Love the tip to add cashews directly to the cooking soup to soften!"
+             },
+             {
+                "@type":"Review",
+                "reviewRating":{
+                   "@type":"Rating",
+                   "ratingValue":"5"
+                },
+                "author":{
+                   "@type":"Person",
+                   "name":"Susan"
+                },
+                "datePublished":"2021-09-13",
+                "reviewBody":"I used the red peppers instead of carrots. Excellent! I did not need to add a thing, I even skipped the pesto and croutons, with fresh garden tomatoes and basil it tasted like summer."
+             },
+             {
+                "@type":"Review",
+                "reviewRating":{
+                   "@type":"Rating",
+                   "ratingValue":"5"
+                },
+                "author":{
+                   "@type":"Person",
+                   "name":"Dawn"
+                },
+                "datePublished":"2021-09-18",
+                "reviewBody":"So delicious! I'm a private chef and I made this as part of lunch. I made it vegan so I used plant based butter not ghee. I did not add cream either. I made my own macadamia nut/basil vegan pesto. I'll be making this at home a lot! Everyone raved how flavorful it was. And IT IS!! Thanks !"
+             },
+             {
+                "@type":"Review",
+                "reviewRating":{
+                   "@type":"Rating",
+                   "ratingValue":"5"
+                },
+                "author":{
+                   "@type":"Person",
+                   "name":"Sherie"
+                },
+                "datePublished":"2021-09-19",
+                "reviewBody":"So easy and so good!  I used fresh tomatoes, cashews as I didn't have cream on hand and broth powder from a Central Washington company.  It was wonderful without any additional toppings, although I love the Vegan Cheesy Sprinkle recipe and will try that next time when I have the ingredients on hand."
+             },
+             {
+                "@type":"Review",
+                "reviewRating":{
+                   "@type":"Rating",
+                   "ratingValue":"5"
+                },
+                "author":{
+                   "@type":"Person",
+                   "name":"Patricia Rathwell"
+                },
+                "datePublished":"2021-09-22",
+                "reviewBody":"Excellent recipe! Have made it twice so far. I only added some fresh minced garlic, just a personal preference! Thank you for this great recipe!"
+             },
+             {
+                "@type":"Review",
+                "reviewRating":{
+                   "@type":"Rating",
+                   "ratingValue":"5"
+                },
+                "author":{
+                   "@type":"Person",
+                   "name":"Debbie"
+                },
+                "datePublished":"2021-09-22",
+                "reviewBody":"This was so delicious!  The best tomato soup ever!   I was amazed at how such simple ingredients could be packed with so much flavor.  Nothing but winners on your web site.  I am so grateful for all your excellent recipes and cooking tips.  Thank you!!!!!"
+             },
+             {
+                "@type":"Review",
+                "reviewRating":{
+                   "@type":"Rating",
+                   "ratingValue":"5"
+                },
+                "author":{
+                   "@type":"Person",
+                   "name":"Sharin L Mills"
+                },
+                "datePublished":"2021-09-25",
+                "reviewBody":"All I can say is \"YUUUUUUMMMMM\"\r\nSharin, Huntsville ON"
+             },
+             {
+                "@type":"Review",
+                "reviewRating":{
+                   "@type":"Rating",
+                   "ratingValue":"5"
+                },
+                "author":{
+                   "@type":"Person",
+                   "name":"Faye"
+                },
+                "datePublished":"2021-09-25",
+                "reviewBody":"What beautiful presentation! I can't wait to make this. I just finished eating your lovely fennel and artichoke soup, sooo delicious! Now I'm on a bit of a soup kick and looking forward to trying this tomato treat xx"
+             },
+             {
+                "@type":"Review",
+                "reviewRating":{
+                   "@type":"Rating",
+                   "ratingValue":"5"
+                },
+                "author":{
+                   "@type":"Person",
+                   "name":"Faye"
+                },
+                "datePublished":"2021-09-29",
+                "reviewBody":"Oh wow! I made it and I stand by the five stars, it was fantastic! I doubled the recipe and froze a bacth, so now I have something to look forward to!! XD\r\n\r\nThe almond pesto topping was a great addition too! I've already used the rest of it (mixed with coconut yogurt) as a pasta sauce, lovely! The colours look beautiful together. Sorry, I ramble but I'm just so in love with your recipes!"
+             },
+             {
+                "@type":"Review",
+                "reviewRating":{
+                   "@type":"Rating",
+                   "ratingValue":"5"
+                },
+                "author":{
+                   "@type":"Person",
+                   "name":"Rain"
+                },
+                "datePublished":"2021-09-26",
+                "reviewBody":"Love it! Even a hit with my picky 3 year old! Thank you so much for your delicious recipes! I haven\u2019t had one fail me yet!"
+             },
+             {
+                "@type":"Review",
+                "reviewRating":{
+                   "@type":"Rating",
+                   "ratingValue":"5"
+                },
+                "author":{
+                   "@type":"Person",
+                   "name":"Victoria"
+                },
+                "datePublished":"2021-10-10",
+                "reviewBody":"This is the best flavored Tomato soup that I have ever made.  Thank you for this."
+             },
+             {
+                "@type":"Review",
+                "reviewRating":{
+                   "@type":"Rating",
+                   "ratingValue":"5"
+                },
+                "author":{
+                   "@type":"Person",
+                   "name":"Kim"
+                },
+                "datePublished":"2021-10-17",
+                "reviewBody":"Such a delicious soup! Second time making it today and I made a double batch to eat durning the week. Now that weather is changing it is a perfect fit for dinner.!"
+             },
+             {
+                "@type":"Review",
+                "reviewRating":{
+                   "@type":"Rating",
+                   "ratingValue":"5"
+                },
+                "author":{
+                   "@type":"Person",
+                   "name":"Jo Fisher"
+                },
+                "datePublished":"2021-10-21",
+                "reviewBody":"Beautiful Fall soup, and very adaptable. I added red peppers and some leftover sweet potato for sweetness and cut back on the sugar. I will definitely add this recipe to my repertoire."
+             },
+             {
+                "@type":"Review",
+                "reviewRating":{
+                   "@type":"Rating",
+                   "ratingValue":"5"
+                },
+                "author":{
+                   "@type":"Person",
+                   "name":"Sonya L Gardner"
+                },
+                "datePublished":"2021-10-24",
+                "reviewBody":"Everyone loves this recipe! Thank you! It's delicious!"
+             },
+             {
+                "@type":"Review",
+                "reviewRating":{
+                   "@type":"Rating",
+                   "ratingValue":"5"
+                },
+                "author":{
+                   "@type":"Person",
+                   "name":"Sonya L Gardner"
+                },
+                "datePublished":"2021-10-24",
+                "reviewBody":"Everyone loves this recipe! Thank you! It's simple and delicious!"
+             }
+          ],
+          "datePublished":"2020-09-17",
+          "@id":"https://www.feastingathome.com/simple-tomato-soup/#recipe",
+          "isPartOf":{
+             "@id":"https://www.feastingathome.com/simple-tomato-soup/#article"
+          },
+          "mainEntityOfPage":"https://www.feastingathome.com/simple-tomato-soup/#webpage"
+       }
+    ]
+ }
