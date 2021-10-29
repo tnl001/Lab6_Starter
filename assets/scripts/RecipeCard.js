@@ -1,10 +1,10 @@
 class RecipeCard extends HTMLElement {
   constructor() {
     // Part 1 Expose - TODO
+    super();
 
     // You'll want to attach the shadow DOM here
-    super();
-    var shadow = this.attachShadow({mode: 'open'});
+    let shadow = this.attachShadow({mode: 'open'});
   }
 
   set data(data) {
@@ -102,10 +102,49 @@ class RecipeCard extends HTMLElement {
     // created in the constructor()
 
     // Part 1 Expose - TODO
-    if (searchForKey(data, "ratingValue") == undefined) {
-      console.log("No review");
-    } else {
-      console.log(searchForKey(data, "ratingValue"));
+
+    // creating rating
+    let rating_div = document.createElement("div");
+    let rating_span = document.createElement("span");
+    let rating_img = document.createElement("img");
+    let review_span = document.createElement("span");
+    rating_div.setAttribute("class", "div");
+
+    if (searchForKey(data, "ratingValue") == undefined) { // for recipes that dont have rating
+      review_span.innerHTML = "No Reviews";
+      rating_div.appendChild(review_span);
+    } else { // for recipes that have rating
+      let rating_val = Math.round(searchForKey(data, "ratingValue"));
+      let rating_count = searchForKey(data, "ratingCount");
+      review_span.innerHTML = rating_count;
+
+      rating_span.innerHTML = "(" + rating_val + ")";
+
+      switch (rating_val) {
+        case 0:
+          rating_img.setAttribute("src", "assets/images/icons/0-star.svg");
+          break;
+        case 1:
+          rating_img.setAttribute("src", "assets/images/icons/1-star.svg");
+          break;
+        case 2:
+          rating_img.setAttribute("src", "assets/images/icons/2-star.svg");
+          break;
+        case 3:
+          rating_img.setAttribute("src", "assets/images/icons/3-star.svg");
+          break;
+        case 4:
+          rating_img.setAttribute("src", "assets/images/icons/4-star.svg");
+          break;
+        case 5:
+          rating_img.setAttribute("src", "assets/images/icons/5-star.svg");
+          break;
+      }
+
+      // add children to div
+      rating_div.appendChild(rating_span);
+      rating_div.appendChild(rating_img);
+      rating_div.appendChild(review_span);
     }
 
     // creating thumbnail
@@ -133,15 +172,21 @@ class RecipeCard extends HTMLElement {
     // creating list of ingredients
     let ingredients = document.createElement("p");
     ingredients.setAttribute("class", "ingredients");
-    ingredients.innerHTML = reateIngredientList(searchForKey(data, "recipeIngredient"))
+    ingredients.innerHTML = createIngredientList(searchForKey(data, "recipeIngredient"))
 
-    // console.log(getUrl(data));
-    // console.log(searchForKey(data, "headline"));
-    // console.log(searchForKey(data, "thumbnailUrl"));
-    // console.log(getOrganization(data));
-    // console.log(convertTime(searchForKey(data, "totalTime")));
-    // console.log(createIngredientList(searchForKey(data, "recipeIngredient")));
+    // add children to article
+    card.appendChild(thumbnail);
+    card.appendChild(title_p);
+    card.appendChild(org_p);
+    card.appendChild(rating_div);
+    card.appendChild(time);
+    card.appendChild(ingredients);
 
+    // add the childrem to the shadow dom
+    card.attachShadow({mode: 'open'});
+    styleElem.attachShadow({mode: 'open'});
+
+    console.log(card.shadowRoot);
   }
 }
 
