@@ -108,36 +108,47 @@ class RecipeCard extends HTMLElement {
     let rating_span = document.createElement("span");
     let rating_img = document.createElement("img");
     let review_span = document.createElement("span");
-    rating_div.setAttribute("class", "div");
+    rating_div.setAttribute("class", "rating");
 
     if (searchForKey(data, "ratingValue") == undefined) { // for recipes that dont have rating
       review_span.innerHTML = "No Reviews";
       rating_div.appendChild(review_span);
     } else { // for recipes that have rating
-      let rating_val = Math.round(searchForKey(data, "ratingValue"));
+      let raw_rating_val = searchForKey(data, "ratingValue");
+      let rounded_rating_val = Math.round(raw_rating_val);
       let rating_count = searchForKey(data, "ratingCount");
-      review_span.innerHTML = rating_count;
+      rating_span.innerHTML = raw_rating_val;
+      review_span.innerHTML = "(" + rating_count + ")";
 
-      rating_span.innerHTML = "(" + rating_val + ")";
-
-      switch (rating_val) {
+      switch (rounded_rating_val) {
         case 0:
           rating_img.setAttribute("src", "assets/images/icons/0-star.svg");
+          rating_img.setAttribute("alt", "0 star");
           break;
         case 1:
           rating_img.setAttribute("src", "assets/images/icons/1-star.svg");
+          rating_img.setAttribute("alt", "1 star");
+
           break;
         case 2:
           rating_img.setAttribute("src", "assets/images/icons/2-star.svg");
+          rating_img.setAttribute("alt", "2 stars");
+
           break;
         case 3:
           rating_img.setAttribute("src", "assets/images/icons/3-star.svg");
+          rating_img.setAttribute("alt", "3 stars");
+
           break;
         case 4:
           rating_img.setAttribute("src", "assets/images/icons/4-star.svg");
+          rating_img.setAttribute("alt", "4 stars");
+
           break;
         case 5:
           rating_img.setAttribute("src", "assets/images/icons/5-star.svg");
+          rating_img.setAttribute("alt", "5 stars");
+
           break;
       }
 
@@ -185,8 +196,7 @@ class RecipeCard extends HTMLElement {
     // add the childrem to the shadow dom
     this.shadowRoot.appendChild(card);
     this.shadowRoot.appendChild(styleElem);
-
-    console.log(card.shadowRoot);
+    console.log(this.shadowRoot);
   }
 }
 
