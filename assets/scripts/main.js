@@ -55,10 +55,9 @@ async function fetchRecipes() {
         recipeData[i] = data;
 
         // check if the fetched data amount matched
-        if (i == recipes.length-1) {
-          if (Object.keys(recipeData).length == recipes.length) {
-            resolve(true);
-          }
+        if (Object.keys(recipeData).length == recipes.length) {
+          console.log(Object.keys(recipeData).length);
+          resolve(true);
         }
       }).catch (error => reject(false));
     }
@@ -76,6 +75,7 @@ function createRecipeCards() {
 
   // Part 1 Expose - TODO
   console.log(recipeData);
+  console.log("Creating recipe cards");
 
   let main_section = document.querySelector("main");
 

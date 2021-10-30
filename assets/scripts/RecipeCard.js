@@ -200,7 +200,6 @@ class RecipeCard extends HTMLElement {
     // add the childrem to the shadow dom
     this.shadowRoot.appendChild(card);
     this.shadowRoot.appendChild(styleElem);
-    console.log(this.shadowRoot);
   }
 }
 
